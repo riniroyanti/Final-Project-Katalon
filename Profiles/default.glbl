@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://68ecb27deff9ad3b1402e423.mockapi.io/api/crm/users'</initValue>
+      <initValue>'https://68ecb27deff9ad3b1402e423.mockapi.io/api/crm'</initValue>
       <name>baseUrl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
