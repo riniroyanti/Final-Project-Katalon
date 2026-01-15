@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update User by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42b20561-d619-4a46-a5f3-a8d4b47c5637</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cf318c7-7716-42e4-b724-2a770f1cc103</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abc53efa-3ce6-4ffa-948b-5bbf3aef1fa9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27ed45f1-0e1c-418f-8a4c-a3c4c52959f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0864ee5f-2257-4780-82a2-ffbc8a976be9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'11'</defaultValue>
+      <description></description>
+      <id>3cf318c7-7716-42e4-b724-2a770f1cc103</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mas Coy'</defaultValue>
+      <description></description>
+      <id>abc53efa-3ce6-4ffa-948b-5bbf3aef1fa9</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>'Manajer'</defaultValue>
+      <description></description>
+      <id>27ed45f1-0e1c-418f-8a4c-a3c4c52959f6</id>
+      <masked>false</masked>
+      <name>pekerjaan</name>
+   </variable>
+   <variable>
+      <defaultValue>11000000</defaultValue>
+      <description></description>
+      <id>0864ee5f-2257-4780-82a2-ffbc8a976be9</id>
+      <masked>false</masked>
+      <name>penghasilan</name>
+   </variable>
+</TestCaseEntity>

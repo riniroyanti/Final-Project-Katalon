@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Update User</name>
+   <name>Update User by ID</name>
    <tag></tag>
    <elementGuidId>962e1f18-5ce0-4e12-8fde-4ff18897c63a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,7 +12,7 @@
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: ${nama},\n  \&quot;job\&quot;: ${pekerjaan},\n  \&quot;salary\&quot;: ${penghasilan}\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;${nama}\&quot;,\n  \&quot;job\&quot;: \&quot;${pekerjaan}\&quot;,\n  \&quot;salary\&quot;: ${penghasilan}\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
