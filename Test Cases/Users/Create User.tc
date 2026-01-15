@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>663afb7b-7da8-49a3-a199-8993a6e1638b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc502918-3caa-42a5-9977-44e2c1881da4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>790acefb-7976-4791-8827-f18dfcefdd1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da3286c7-7d02-43ee-9f49-5b8fe2c7b4bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mas Coy'</defaultValue>
+      <description></description>
+      <id>bc502918-3caa-42a5-9977-44e2c1881da4</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>'Manajer'</defaultValue>
+      <description></description>
+      <id>790acefb-7976-4791-8827-f18dfcefdd1a</id>
+      <masked>false</masked>
+      <name>pekerjaan</name>
+   </variable>
+   <variable>
+      <defaultValue>11000000</defaultValue>
+      <description></description>
+      <id>da3286c7-7d02-43ee-9f49-5b8fe2c7b4bb</id>
+      <masked>false</masked>
+      <name>penghasilan</name>
+   </variable>
+</TestCaseEntity>
