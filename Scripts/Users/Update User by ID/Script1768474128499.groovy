@@ -17,10 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequestAndVerify(findTestObject('Users/Update User', [('id') : id, ('nama') : nama, ('pekerjaan') : pekerjaan
+def usedId = (GlobalVariable.userId != null && GlobalVariable.userId.toString().trim() != '') ? GlobalVariable.userId : id
+
+response = WS.sendRequestAndVerify(findTestObject('Users/Update User by ID', [('id') : usedId, ('nama') : nama, ('pekerjaan') : pekerjaan
             , ('penghasilan') : penghasilan]))
 
-WS.verifyElementPropertyValue(response, 'id', id)
+WS.verifyElementPropertyValue(response, 'id', usedId)
 
 WS.verifyElementPropertyValue(response, 'name', nama)
 

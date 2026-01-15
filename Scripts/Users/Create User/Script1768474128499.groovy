@@ -25,3 +25,5 @@ WS.verifyElementPropertyValue(response, 'job', pekerjaan)
 
 WS.verifyElementPropertyValue(response, 'salary', penghasilan)
 
+GlobalVariable.userId = WS.getElementPropertyValue(response, 'id')
+

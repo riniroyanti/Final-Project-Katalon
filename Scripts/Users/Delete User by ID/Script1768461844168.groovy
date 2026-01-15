@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequestAndVerify(findTestObject('Users/Delete User by ID', [('id') : '1']))
+def usedId = (GlobalVariable.userId != null && GlobalVariable.userId.toString().trim() != '') ? GlobalVariable.userId : id
 
-WS.verifyElementPropertyValue(response, 'id', id)
+response = WS.sendRequestAndVerify(findTestObject('Users/Delete User by ID', [('id') : usedId]))
+
+WS.verifyElementPropertyValue(response, 'id', usedId)
 
